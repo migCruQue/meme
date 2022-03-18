@@ -1,0 +1,28 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 65px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: -webkit-gradient(linear, left top, right top, color-stop(1.18%, #6ebf8b), to(#dadbbd));
+  background: linear-gradient(90deg, #6ebf8b 1.18%, #dadbbd 100%);
+  color: #d82148;
+  padding: 20px;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 2rem;
+  border-radius: 20%;
+}
+
+.header--title {
+  font-size: 2.5rem;
+}
+/*# sourceMappingURL=Header.css.map */
