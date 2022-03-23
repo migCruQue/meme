@@ -29,6 +29,32 @@ main {
   cursor: pointer;
 }
 
+.meme {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.meme h2 {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  color: white;
+  text-shadow: 0 1px 0 black;
+}
+
+.meme--text-top {
+  top: 20px;
+}
+
+.meme--text-bottom {
+  top: 220px;
+}
+
 .meme--image {
   max-width: 100%;
 }
